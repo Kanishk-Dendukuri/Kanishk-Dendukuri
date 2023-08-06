@@ -1,12 +1,15 @@
-import { Box, extendTheme, Text } from "@chakra-ui/react";
-import React, { useState, WheelEvent, useEffect } from "react";
-import { NextPage } from "next";
+import Head from "next/head";
+import Header from "../components/Header";
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
-    <Box>
-      <Text>Banana</Text>
-    </Box>
+    <div>
+      <Head>
+        <title>Your Name | Portfolio</title>
+      </Head>
+      <Header />
+      {}
+    </div>
   );
 };
 
