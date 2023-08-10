@@ -20,13 +20,14 @@ const AboutMe = () => {
       </MotionBox>
       <Box mt={4}>
         <Text fontSize="lg">
-          Hi, I'm Kanishk! I'm a passionate software engineer with expertise
-          in (STUFF). I love building web applications that make a
-          positive impact on people's lives. Here, you can find some of my
-          projects and learn more about my skills and experiences. Feel free to
-          reach out to me through the contact page!
+          Hi, I'm Kanishk! I'm a passionate software engineer with expertise in
+          (STUFF). I love building web applications that make a positive impact
+          on people's lives. Here, you can find some of my projects and learn
+          more about my skills and experiences. Feel free to reach out to me
+          through the contact page!
         </Text>
       </Box>
+      <div className="custom-cursor" /> {/* Add the custom cursor */}
     </Flex>
   );
 };
